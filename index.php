@@ -10,43 +10,116 @@
     <div class="hero-content">
         <h1>Empowering Businesses With End-to-End Solutions</h1>
         <p>Our multidisciplinary expertise spans creative design, advanced printing, and digital innovation — ensuring
-            <br> your business has everything it needs to lead in today’s market.</p>
+            <br> your business has everything it needs to lead in today’s market.
+        </p>
         <a href="./services.php" class="btn">Get Started Today</a>
     </div>
 </section>
 
 <!-- Services Section -->
 <section class="services section-mw section-p1 section-m1">
-    <h3>SERVICES</h3>
+    <h3>INDUSTRY</h3>
     <h2>Transform your business with advanced technologies</h2>
     <!-- Services Cards -->
     <div class="services-grids">
         <div class="service-grid s-1">
-        <h4>AI and Data & Analytics</h4>
-    </div>
-    <div class="service-grid s-2">
-        <h4>Education</h4>
-    </div>
-    <div class="service-grid s-3">
-        <h4>Travel & Logistics</h4>
-    </div>
-    <div class="service-grid s-4">
-        <h4>Network Solution & Services</h4>
-    </div>
-    <div class="service-grid s-5">
-        <h4>High Tech</h4>
-    </div>
-    <div class="service-grid s-6">
-        <h4>Manufacturing</h4>
-    </div>
-    <div class="service-grid s-7">
-        <h4>Retail</h4>
-    </div>
-    <div class="service-grid s-8">
-        <h4>Consulting</h4>
-    </div>
+            <h4>Development & IT</h4>
+        </div>
+        <div class="service-grid s-2">
+            <h4>Education</h4>
+        </div>
+        <div class="service-grid s-3">
+            <h4>Import & Export</h4>
+        </div>
+        <div class="service-grid s-4">
+            <h4>Design & Creative</h4>
+        </div>
+        <div class="service-grid s-5">
+            <h4>Sales & Marketing</h4>
+        </div>
+        <div class="service-grid s-6">
+            <h4>Custom Print Solutions</h4>
+        </div>
     </div>
 </section>
+
+<!-- Work Section -->
+<section class="works section-m1 section-p1 section-mw">
+    <div class="work-para">
+        <div class="title">
+            <h2>Impact We Created</h2>
+        </div>
+        <div class="para">
+            <p>At Kinetiq, we specialize in offering a full range of creative branding,<br> strategy, design and
+                development services tailored to bring your ideas<br> to life.</p>
+            <button class="btn-s">Get Started <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    </div>
+
+    <div class="image-cards section-mw">
+        <div class="card">
+            <img src="./images\AI Banner_06.jpg" alt="">
+            <div class="txt-wrap-icon">
+                <div class="txt-wrap">
+                    <h4>UI/UX Designe</h4>
+                    <h3>Wayflyer Dashboard</h3>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images\AI Banner_06.jpg" alt="">
+            <div class="txt-wrap-icon">
+                <div class="txt-wrap">
+                    <h4>UI/UX Designe</h4>
+                    <h3>Wayflyer Dashboard</h3>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images\AI Banner_06.jpg" alt="">
+            <div class="txt-wrap-icon">
+                <div class="txt-wrap">
+                    <h4>UI/UX Designe</h4>
+                    <h3>Wayflyer Dashboard</h3>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images\AI Banner_06.jpg" alt="">
+            <div class="txt-wrap-icon">
+                <div class="txt-wrap">
+                    <h4>UI/UX Designe</h4>
+                    <h3>Wayflyer Dashboard</h3>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</section>
+
+</body>
+
+</html>
 
 
 <!-- Footer Call -->

@@ -44,7 +44,7 @@ p {
 }
 
 .section-mw {
-    max-width: 100%;
+    max-width: 1600px;
     width: 100%;
 }
 
@@ -53,9 +53,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 100%;
-    width: 90%;
-    margin: 0 0 0 5%;
+    max-width: 1600px;
+    width: 1500px;
+    margin: 0 50px 0 50px;
     padding: 20px 20px;
     z-index: 999;
     position: fixed;
@@ -175,7 +175,8 @@ p {
 }
 
 
-.services{
+/* Services Section */
+.services {
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -183,45 +184,45 @@ p {
     gap: 20px;
 }
 
-.services h2{
+.services h2 {
     color: white;
     margin-bottom: 16px;
 }
 
-
-.services-grids{
+/* Services Grids */
+.services-grids {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 50px 20px;
 }
 
-.s-1{
-    background-image: url(../images/AI\ Banner_01.jpg);   
-}
-.s-2{
-    background-image: url(../images/AI\ Banner_02.jpg);   
-}
-.s-3{
-    background-image: url(../images/AI\ Banner_03.jpg);   
-}
-.s-4{
-    background-image: url(../images/AI\ Banner_04.jpg);   
-}
-.s-5{
-    background-image: url(../images/AI\ Banner_05.jpg);   
-}
-.s-6{
-    background-image: url(../images/AI\ Banner_06.jpg);   
-}
-.s-7{
-    background-image: url(../images/AI\ Banner_07.jpg);   
-}
-.s-8{
-    background-image: url(../images/AI\ Banner_08.jpg);   
+.s-1 {
+    background-image: url(../images/Development\ &\ IT.jpg);
 }
 
-.service-grid{
+.s-2 {
+    background-image: url(../images/Education.jpg);
+}
+
+.s-3 {
+    background-image: url(../images/Import\ Export.jpg);
+}
+
+.s-4 {
+    background-image: url(../images/Design\ &\ Creative.jpg);
+}
+
+.s-5 {
+    background-image: url(../images/Sales\ &\ Marketing.jpg);
+}
+
+.s-6 {
+    background-image: url(../images/Custom\ Print\ Solutions.jpg);
+}
+
+/* Services grid */
+.service-grid {
     height: 402px;
     width: 300px;
     background-repeat: no-repeat;
@@ -237,14 +238,141 @@ p {
     box-shadow: inset 0 80px 80px 10px rgba(0, 0, 0, 1.6);
 }
 
-.service-grid h4{
+.service-grid h4 {
     margin-top: 10px;
 }
 
-.service-grid:hover{
-    transform: translateY(-8px); /* move slightly up */
+.service-grid:hover {
+    transform: translateY(-8px);
+    /* move slightly up */
     box-shadow: inset 0 80px 80px -30px rgba(0, 0, 0, 0.9);
 }
+
+
+
+/* Work Section */
+.works {
+    background-color: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.work-para {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 140px; */
+}
+
+.work {
+    /* width: 50%; */
+}
+
+.para {
+    /* width: 50%; */
+}
+
+.btn-s {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 16px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 99px;
+    padding: 08px 32px;
+    color: white;
+    transition: background-color .5s, color .5s;
+}
+
+.btn-s:hover {
+    background-color: #065b69;
+}
+
+.image-cards {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 60px 30px;
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card img {
+    border-radius: 8px;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.txt-wrap-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.arrow {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.arrow i {
+    transform: rotate(320deg);
+    font-size: 76px;
+}
+
+.card:hover i {
+    transition: 0.9s;
+    font-size: 30px;
+}
+
+.card:hover .arrow {
+    background-color: #065b69;
+    transition: 0.9s;
+}
+
+.card:hover .txt-wrap {
+    color: #065b69;
+    transition: 0.9s;
+}
+
+.card:hover .txt-wrap h4 {
+    color: #065b69;
+    transition: 0.9s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -365,7 +493,8 @@ footer img {
         color: #222;
         font-size: 24px;
     }
-    footer{
+
+    footer {
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -385,7 +514,7 @@ footer img {
 
 /* Window Scrolled Navbaar */
 
-.scrolled{
+.scrolled {
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
