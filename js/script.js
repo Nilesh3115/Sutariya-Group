@@ -35,3 +35,15 @@ window.addEventListener("scroll", function () {
         }
     });
 });
+
+// Scroll par navbar bar Icon style change
+window.addEventListener("scroll", function () {
+    const navLinks = document.querySelectorAll("#bar");
+    navLinks.forEach(link => {
+        if (window.scrollY > 50) { 
+            link.classList.add("bar-s");
+        } else {
+            link.classList.remove("bar-s");
+        }
+    });
+});

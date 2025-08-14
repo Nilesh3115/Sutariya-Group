@@ -47,7 +47,7 @@
 <section class="works section-m1 section-p1 section-mw">
     <div class="work-para">
         <div class="title">
-            <h2>Impact We Created</h2>
+            <h2>Impact We <br> Created</h2>
         </div>
         <div class="para">
             <p>At Kinetiq, we specialize in offering a full range of creative branding,<br> strategy, design and
@@ -59,7 +59,25 @@
 
     <div class="image-cards section-mw">
         <div class="card">
-            <img src="./images\AI Banner_06.jpg" alt="">
+            <div class="card-img">
+                <img src="./images\Work-section-1.avif" alt="">
+            </div>
+            <div class="txt-wrap-icon">
+                <div class="txt-wrap">
+                    <h4>UI/UX Designe</h4>
+                    <h3>Wayflyer Dashboard</h3>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="./images\Work-section-2.avif" alt="">
+            </div>
             <div class="txt-wrap-icon">
                 <div class="txt-wrap">
                     <h4>UI/UX Designe</h4>
@@ -72,7 +90,9 @@
         </div>
 
         <div class="card">
-            <img src="./images\AI Banner_06.jpg" alt="">
+            <div class="card-img">
+                <img src="./images\Work-section-3.avif" alt="">
+            </div>
             <div class="txt-wrap-icon">
                 <div class="txt-wrap">
                     <h4>UI/UX Designe</h4>
@@ -85,20 +105,9 @@
         </div>
 
         <div class="card">
-            <img src="./images\AI Banner_06.jpg" alt="">
-            <div class="txt-wrap-icon">
-                <div class="txt-wrap">
-                    <h4>UI/UX Designe</h4>
-                    <h3>Wayflyer Dashboard</h3>
-                </div>
-                <div class="arrow">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
+            <div class="card-img">
+                <img src="./images\Work-section-4.avif" alt="">
             </div>
-        </div>
-
-        <div class="card">
-            <img src="./images\AI Banner_06.jpg" alt="">
             <div class="txt-wrap-icon">
                 <div class="txt-wrap">
                     <h4>UI/UX Designe</h4>

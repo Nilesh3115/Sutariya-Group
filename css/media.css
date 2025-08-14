@@ -1,0 +1,109 @@
+/* Media Queries Css Started Here */
+
+/* Media Query for 1300px to 1500px Devices */
+@media (min-width: 1300px) and (max-width: 1500px) {
+    .image-cards {
+        gap: 40px 20px;
+    }
+
+    .works {
+        padding: 40px 150px;
+    }
+
+    .header {
+        min-width: 1200px;
+        max-width: 1500px;
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+
+/* Media Query for 999px to 1299px Devices */
+@media (min-width: 999px) and (max-width: 1299px) {
+    .header {
+        min-width: 899px;
+        max-width: 1299px;
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+
+/* Media Query for 999px to 1299px Devices */
+@media (min-width: 799px) and (max-width: 998px) {
+    .header {
+        min-width: 699px;
+        max-width: 998px;
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+
+/* Media Query for 499px to 798px Devices */
+@media (min-width: 499px) and (max-width: 798px) {
+    .header {
+        min-width: 499px;
+        max-width: 798px;
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+
+/*start media query*/
+@media (max-width:799px) {
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3f6f3;
+        box-shadow: 0 40px 60px rgb(0, 0, 0)0.1;
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    .navbar.active {
+        right: 0px;
+    }
+
+    .navbar li {
+        margin-bottom: 25px;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .mobile i {
+        color: #065b69;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    .close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
